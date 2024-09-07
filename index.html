@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gta.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="navbar">
+        <div id="icon">
+            <img id="img1" src="data:image/png;base64,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" alt="icon">
+        </div>
+        <div id="tags">
+            <a id="a1" href="#">Games</a>
+            <a id="a1" href="#">Newswire</a>
+            <a id="a1" href="#">Videos</a>
+            <a id="a1" href="#">Downloads</a>
+            <a id="a1" href="#">Store</a>
+            <a id="a1" href="#">Support</a>
+        </div>
+        <div id="search">
+            <div id="serc1">
+                <button id="btn1">
+                    GET LAUNCHER
+                </button>
+            </div>
+            <div id="serc2">
+                <i id="item1" class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div id="serc3">
+                <i id="item2" class="fa-regular fa-user"></i>
+            </div>
+         
+        </div>
+    </div>
+
+    <div id="part1">
+        <div id="subpart1">
+            <a href="#">
+                <img id="img2" src="https://4kwallpapers.com/images/walls/thumbs_3t/13624.jpg" alt="gta">
+            </a>
+        </div>
+        <div id="subpart2">
+             <div id="divbox">
+             <div id="div1">Grand Theft Auto VI</div>
+             <h1 id="trailer1">Trailer 1</h1>
+             <button class="btn2"><a id="anchor3" href="#">WATCH NOW</a></button>
+
+             <div id="botmdiv">
+             <div id="botmdiv1"></div>
+             <div id="botmdiv1"></div>
+             <div id="botmdiv1"></div>
+             <div id="botmdiv1"></div>
+             </div>
+             </div>
+        </div>
+    </div>
+
+   <div class="nextBody">
+  <div id="nextA">
+    <img id="img1" src="https://media.gettyimages.com/id/1825441644/photo/gta-vi-logo-from-the-trailer-displayed-on-a-laptop-screen-and-rockstar-games-logo-displayed.jpg?s=612x612&w=0&k=20&c=5v0eEPuN2gzRbtZKK5qum8dD2vvh-0zswzwh0nfdTKw=" alt="#">
+  </div>
+  <div id="next">
+    <h1 class="textB">WELCOME TO LEONIDA</h1>
+    <div class="textC">Grand Theft Auto VI heads to the state of Leonida, home to the neon-
+        <br>
+        soaked streets of Vice City and beyond in the biggest, most immersive
+        <br>
+         evolution of the Grand Theaft Auto series yrt. Coming 2025 to 
+         <br>
+         PlayStation 5 and Xbox Series X|S.</div>
+    <button class="btnA">WATCH TRAILER</button>
+   </div>
+   </div>
+   <div class="footDiv">
+    <div id="miniFootA">
+        <img id="img2" src="https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/80dd50a2fa9aae3b5d6effdb2d9c2661.svg" alt="#">
+    </div>
+    <div id="miniFootB">
+      <p>May contain content 
+        <br>
+        inappropriate for childre.</p>
+        <p>
+            Visit esrb.org for rating 
+           <br>
+            information.
+        </p>
+    </div>
+   </div>
+   <div class="lastDiv">
+    <div id="lastDiv2">
+        <a id="anchors" href="#">Contact</a>
+        <a id="anchors" href="#">Careers</a>
+        <a id="anchors" href="#">Community Guidlines</a>
+        <a id="anchors" href="#">Subscribe</a>
+    </div>
+    <div >
+        <a href="#"><i id="i1" class="fa-solid fa-globe"></i></a>
+        <input id="inp2" type="text" placeholder="Select a Language" list="English">
+        <datalist id="English">
+                <option value="Deutsch">
+                <option value="English">
+                <option value="Espanol"></option>
+                <option value="Espanol Latinoamerica"></option>
+                <option value="Francais"></option>
+                <option value="Italiano"></option>
+                <option value="Polski"></option>
+                <option value="Portugues do Brasil"></option>
+                <option value="PycckNN"></option>
+        </datalist>
+    </div>
+   </div>
+   <div class="lastFooot">
+    <div id="lastFoootA">
+        <a id="anchor2" href="#">Corporate</a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a id="anchor2" href="#">Privacy</a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a id="anchor2" href="#">Cookie Settings</a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a id="anchor2" href="#">Cookie Policy</a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a id="anchor2" href="#">Legal</a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a id="anchor2" href="#">Do Not Sell or Share My Personal Information</a>
+    </div>
+    <div id="lastFoootB">
+        <i id="icons" class="fa-brands fa-x-twitter"></i>
+        <i id="icons" class="fa-brands fa-instagram"></i>
+        <i id="icons" class="fa-brands fa-youtube"></i>
+        <i id="icons" class="fa-brands fa-facebook"></i>
+        <i id="icons" class="fa-brands fa-twitch"></i>
+    </div>
+   </div>
+   <div class="lastBlock">
+    <div class="lastblock">Rockstar Games</div>
+    <div class="lastblock">New York London Paris Bogota</div>
+    <div class="lastblock">MCMXCVIII</div>
+   </div>
+   <script src="gta.js"></script>
+</body>
+</html>
